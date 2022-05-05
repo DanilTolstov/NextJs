@@ -1,6 +1,6 @@
-import { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react';
+import { DetailedHTMLProps, HTMLAttributes } from 'react';
+import { ReviewModel } from '../../interfaces/product.interface';
 
-export interface DividerProps extends DetailedHTMLProps<HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement> {
-	size?: 's' | 'm' | 'l';
-	children: ReactNode;
+export interface ReviewProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+	review: ReviewModel;
 }

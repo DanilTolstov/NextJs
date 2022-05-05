@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9e8a913-d54c-4d8f-94bb-7f5c53271aae" name="Changes" comment="add readme">
+      <change afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/top-app/helpers/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/.stylelintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Card/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Card/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Divider/Divider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Divider/Divider.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Divider/Divider.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Divider/Divider.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Divider/Divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Divider/Divider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Input/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Input/Input.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Input/Input.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Input/Input.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Product/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Product/Product.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Product/Product.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Product/Product.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Product/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Product/Product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Review/Review.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Review/Review.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Review/Review.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Review/Review.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Review/Review.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Review/Review.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Review/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Review/user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Search/Search.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Search/Search.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Search/Search.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Search/Search.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Sort/Sort.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Sort/Sort.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/helpers/helpers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/helpers/helpers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/interfaces/product.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/interfaces/product.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/layout/Menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/layout/Menu/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/layout/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/page-components/TopPageComponent/TopPageComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/page-components/TopPageComponent/TopPageComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/page-components/TopPageComponent/sort.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/page-components/TopPageComponent/sort.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/pages/[type]/[alias].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/pages/[type]/[alias].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/pages/[type]/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/pages/[type]/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/pages/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/pages/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/client/top-app/.gitignore" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectId" id="28ht8Ryr38UIKbu9VeFS5LJ1ehb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/daniltolstov/PluralSight/NextJs/client/top-app/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "/Users/daniltolstov/PluralSight/NextJs/client/top-app/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.CSS",
+    "ts.external.directory.path": "/Users/daniltolstov/PluralSight/NextJs/client/top-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/top-app/components" />
+      <recent name="$PROJECT_DIR$/client/top-app/components/Review" />
+      <recent name="$PROJECT_DIR$/client/top-app/components/Divider" />
+      <recent name="$PROJECT_DIR$/client/top-app/components/Product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client/top-app/components/Divider" />
+      <recent name="$PROJECT_DIR$/client/top-app/components/Search" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/top-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/top-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/top-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prepare" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/top-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.prepare" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9e8a913-d54c-4d8f-94bb-7f5c53271aae" name="Changes" comment="" />
+      <created>1651680488758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651680488758</updated>
+      <workItem from="1651680491827" duration="530000" />
+      <workItem from="1651681079853" duration="20554000" />
+    </task>
+    <task id="LOCAL-00001" summary="add readme">
+      <created>1651682023005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651682023006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
+  </component>
+</project>
