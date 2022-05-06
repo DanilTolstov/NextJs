@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9e8a913-d54c-4d8f-94bb-7f5c53271aae" name="Changes" comment="add readme">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Product/Product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Product/Product.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Product/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Product/Product.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/ReviewForm/ReviewForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Search/Search.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Search/Search.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Search/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Sort/Sort.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Sort/Sort.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Sort/Sort.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Sort/Sort.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Tag/Tag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Tag/Tag.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/components/Textarea/Textarea.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/layout/Menu/Menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/layout/Menu/Menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/layout/Menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/layout/Menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/page-components/TopPageComponent/TopPageComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/page-components/TopPageComponent/TopPageComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/top-app/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/top-app/pages/[type]/[alias].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/top-app/pages/[type]/[alias].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +147,7 @@
       <workItem from="1651750552774" duration="592000" />
       <workItem from="1651764685569" duration="6683000" />
       <workItem from="1651814136364" duration="8000" />
-      <workItem from="1651814982538" duration="4663000" />
+      <workItem from="1651814982538" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1651682023005</created>
