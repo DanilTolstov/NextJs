@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9e8a913-d54c-4d8f-94bb-7f5c53271aae" name="Changes" comment="add readme">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/glass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/glass.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +153,7 @@
       <workItem from="1651814982538" duration="8202000" />
       <workItem from="1651825177226" duration="4996000" />
       <workItem from="1651830719205" duration="1354000" />
+      <workItem from="1651832584851" duration="271000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1651682023005</created>
