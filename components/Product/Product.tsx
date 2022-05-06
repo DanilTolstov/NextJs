@@ -61,7 +61,7 @@ export const Product = motion(forwardRef(({ product, className, ...props }: Prod
                 <div className={styles.tags}>{product.categories.map(c => <Tag key={c} className={styles.category} color='ghost'>{c}</Tag>)}</div>
                 <div className={styles.priceTitle} aria-hidden={true}>цена</div>
                 <div className={styles.creditTitle} aria-hidden={true}>кредит</div>
-                <div className={styles.rateTitle}><a href="#ref" onClick={scrollToReview}>{product.reviewCount} {declOfNum(product.reviewCount, ['отзыв', 'отзыва', 'отзывов'])}</a></div>
+                <div className={styles.rateTitle}><a href="components/Product/Product#ref" onClick={scrollToReview}>{product.reviewCount} {declOfNum(product.reviewCount, ['отзыв', 'отзыва', 'отзывов'])}</a></div>
                 <Divider className={styles.hr} />
                 <div className={styles.description}>{product.description}</div>
                 <div className={styles.feature}>
