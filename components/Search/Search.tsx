@@ -1,6 +1,6 @@
 import { SearchProps } from './Search.props';
 import styles from './Search.module.css';
-import GlassIcon from './Glass.svg';
+import GlassIcon from './glass.svg';
 import cn from 'classnames';
 import { Input } from '../Input/Input';
 import { Button } from '../Button/Button';
@@ -27,7 +27,7 @@ export const Search = ({ className, ...props }: SearchProps): JSX.Element => {
 	};
 
 	return (
-		<form className={cn(className, styles.search)} {...props} role='search'>
+		<form className={cn(className, styles.search)} {...props} role="search">
 			<Input
 				className={styles.input}
 				placeholder="Поиск..."

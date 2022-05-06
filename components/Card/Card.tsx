@@ -7,7 +7,9 @@ export const Card = forwardRef(({ color = 'white', children, className, ...props
 	return (
 		<div className={cn(styles.card, className, {
 			[styles.blue]: color == 'blue'
-		})} ref={ref} {...props}
+		})}
+			ref={ref}
+			{...props}
 		>
 			{children}
 		</div>

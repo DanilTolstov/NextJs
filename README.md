@@ -10,6 +10,7 @@ ______
 * TypeScript
 * CSS modules
 * CSS GRID
+* Ally
 * Axios
 
 ## Start

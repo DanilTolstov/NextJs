@@ -2,15 +2,15 @@ import { LayoutProps } from './Layout.props';
 import styles from './Layout.module.css';
 import cn from 'classnames';
 import { Header } from './Header/Header';
-import React, {FunctionComponent, KeyboardEvent, useRef, useState} from 'react';
+import React, { FunctionComponent, useState, KeyboardEvent, useRef } from 'react';
 import { Sidebar } from './Sidebar/Sidebar';
 import { Footer } from './Footer/Footer';
 import { AppContextProvider, IAppContext } from '../context/app.context';
-import {Up} from "../components";
+import { Up } from '../components';
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
 	const [isSkipLinkDisplayed, setIsSkipLinkDisplayed] = useState<boolean>(false);
-	const bodyRef = useRef<HTMLDivElement>(null)
+	const bodyRef = useRef<HTMLDivElement>(null);
 
 	const skipContentAction = (key: KeyboardEvent) => {
 		if (key.code == 'Space' || key.code == 'Enter') {
@@ -32,11 +32,11 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
 			>Сразу к содержанию</a>
 			<Header className={styles.header} />
 			<Sidebar className={styles.sidebar} />
-			<main className={styles.body} tabIndex={0} role="main">
+			<main className={styles.body} ref={bodyRef} tabIndex={0} role='main'>
 				{children}
 			</main>
 			<Footer className={styles.footer} />
-            <Up />
+			<Up />
 		</div>
 	);
 };
