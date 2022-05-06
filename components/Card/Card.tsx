@@ -1,17 +1,18 @@
-import { CardProps } from './Card.props';
-import styles from './Card.module.css';
+import ICardProps from './ICard.props';
+import styles from "./Card.module.css";
 import cn from 'classnames';
 import { ForwardedRef, forwardRef } from 'react';
 
-export const Card = forwardRef(({ color = 'white', children, className, ...props }: CardProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
-	return (
-		<div className={cn(styles.card, className, {
-			[styles.blue]: color == 'blue'
-		})}
-			ref={ref}
-			{...props}
-		>
-			{children}
-		</div>
-	);
+export const Card = forwardRef(({ children, color = 'white', className, ...props }: ICardProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
+  return (
+    <div
+      ref={ref}
+      className={cn(className, styles.card, {
+        [styles.card_blue]: color === 'blue',
+      })}
+      {...props}
+    >
+      {children}
+    </div>
+  );
 });

@@ -1,0 +1,49 @@
+.sort {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 20px 40px;
+}
+
+.sort input {
+	position: absolute;
+
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+
+	width: 1px;
+	height: 1px;
+}
+
+.sort span {
+	text-align: end;
+
+	background-color: transparent;
+
+	font-size: 1.14rem;
+	line-height: 1.57rem;
+}
+
+.sort span:hover,
+.sort input:focus + span {
+	cursor: pointer;
+	text-decoration: underline;
+
+	color: var(--primary-hover);
+}
+
+.sort svg {
+	display: none;
+}
+
+.active svg {
+	display: inline;
+
+	margin: 0 8px 0 0;
+}
+
+.active {
+	color: var(--primary);
+
+	font-weight: bold;
+}

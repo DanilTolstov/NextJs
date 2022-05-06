@@ -1,21 +1,49 @@
-.filled svg {
-	fill: var(--primary);
+.rating {
+	position: relative;
+
+	display: flex;
+
+	height: 20px;
+	gap: 5px;
+
+	transition: box-shadow 0.2s ease;
+}
+
+.rating input {
+	position: absolute;
+
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+
+	width: 1px;
+	height: 1px;
 }
 
 .star {
-	display: inline-block;
+	height: 20px;
+
+	cursor: default;
+	transition: fill 0.2s ease;
 }
 
-.star svg {
-	margin-right: 5px;
+.star.filled {
+	fill: var(--primary);
 }
 
-.editable {
+.star.editable {
 	cursor: pointer;
 }
 
-.ratingWrapper {
-	position: relative;
+.rating.error svg {
+	stroke: var(--tomato);
+
+	transition: stroke 0.2s ease;
+}
+
+.rating input:focus + .star.editable,
+.star.editable:hover {
+	fill: var(--primary-hover);
+	stroke: rgba(0, 0, 0, 0);
 }
 
 .errorMessage {
@@ -23,9 +51,5 @@
 	bottom: -20px;
 	left: 0;
 
-	color: var(--red);
-}
-
-.error svg {
-	stroke: var(--red);
+	color: var(--tomato);
 }

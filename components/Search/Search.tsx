@@ -1,48 +1,51 @@
-import { SearchProps } from './Search.props';
-import styles from './Search.module.css';
-import GlassIcon from './Glass.svg';
+import ISearchProps from './ISearch.props';
+import styles from "./Search.module.css";
 import cn from 'classnames';
-import { Input } from '../Input/Input';
-import { Button } from '../Button/Button';
-import { useState, KeyboardEvent } from 'react';
+import { Button, Input } from '..';
+import { useState, ChangeEvent, FormEvent } from 'react';
 import { useRouter } from 'next/router';
+import SearchIcon from './search.svg';
 
-export const Search = ({ className, ...props }: SearchProps): JSX.Element => {
-	const [search, setSearch] = useState<string>('');
-	const router = useRouter();
+export function Search({ className, ...props }: ISearchProps): JSX.Element {
+  const [search, setSearch] = useState<string>('');
+  const router = useRouter();
 
-	const goToSearch = () => {
-		router.push({
-			pathname: '/search',
-			query: {
-				q: search
-			}
-		});
-	};
+  const onChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
+    setSearch(event.target.value);
+  };
 
-	const handleKeyDown = (e: KeyboardEvent) => {
-		if (e.key == 'Enter') {
-			goToSearch();
-		}
-	};
+  const goToSearch = (event: FormEvent) => {
+    event.preventDefault();
 
-	return (
-		<form className={cn(className, styles.search)} {...props} role="search">
-			<Input
-				className={styles.input}
-				placeholder="Поиск..."
-				value={search}
-				onChange={(e) => setSearch(e.target.value)}
-				onKeyDown={handleKeyDown}
-			/>
-			<Button
-				appearance="primary"
-				className={styles.button}
-				onClick={goToSearch}
-				aria-label="Искать по сайту"
-			>
-				<GlassIcon />
-			</Button>
-		</form>
-	);
-};
+    router.push({
+      pathname: '/search',
+      query: {
+        query: search
+      }
+    });
+  };
+
+  return (
+    <form
+      role='search'
+      className={cn(className, styles.search)}
+      onSubmit={goToSearch}
+      {...props}
+    >
+      <Input
+        placeholder='Поиск...'
+        value={search}
+        onChange={onChangeHandler}
+        className={styles.input}
+      />
+      <Button
+        appearance='primary'
+        className={styles.button}
+        type='submit'
+        aria-label='искать по сайту'
+      >
+        <SearchIcon />
+      </Button>
+    </form>
+  );
+}

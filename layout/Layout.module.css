@@ -1,18 +1,17 @@
 .wrapper {
 	display: grid;
+	gap: 30px;
 	grid-template-columns: auto 230px minmax(320px, 1200px) auto;
-	grid-template-rows: auto 1fr auto;
 
 	min-height: 100vh;
-	gap: 40px 30px;
-	grid-template-areas:
-		". header header ."
-		". sidebar body ."
-		"footer footer footer footer";
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas: ". topbar topbar ."". sidebar body .""footer footer footer footer";
 }
 
-.header {
-	grid-area: header;
+.topbar {
+	grid-area: topbar;
+
+	display: none;
 }
 
 .sidebar {
@@ -22,46 +21,75 @@
 .body {
 	grid-area: body;
 
-	outline: none;
+	position: relative;
 }
 
 .footer {
 	grid-area: footer;
 }
 
-.skipLink {
+.skipButton {
 	position: fixed;
+	z-index: 15;
 	top: 0;
-	left: 100px;
+	left: 50%;
 
-	display: block;
-	overflow: hidden;
+	padding: 10px;
 
-	height: 0;
+	transition: 0.2s transform ease;
+	transform: translate(-50%, -100%);
+	text-align: center;
 
 	color: var(--white);
-	background: var(--primary);
+	border-radius: 5px;
+	background-color: var(--primary-hover);
+
+	font-size: 1rem;
+	line-height: 50%;
 }
 
-.displayed {
-	height: auto;
+.skipButton:focus {
+	transform: translate(-50%, 10%);
 }
 
-@media (max-width: 765px) {
+.skipDiv {
+	width: 100%;
+
+	text-align: center;
+}
+
+.afterSkip {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	overflow: hidden;
+	align-self: center;
+
+	width: 0;
+	height: 2px;
+
+	transition: 0.5s width ease;
+
+	background-color: var(--primary);
+}
+
+.afterSkip:focus {
+	width: 100%;
+}
+
+@media screen and (max-width: 720px) {
 	.wrapper {
-		grid-template-columns: minmax(320px, 1fr);
-		grid-template-areas:
-			"header"
-			"body"
-			"footer";
-		gap: 10px;
+		grid-template-columns: auto minmax(320px, 720px) auto;
+		grid-template-areas: ". topbar ."". body .""footer footer footer";
+		gap: 15px 30px;
 	}
 
 	.sidebar {
 		display: none !important;
 	}
 
-	.body {
-		padding: 15px;
+	.topbar {
+		display: flex;
 	}
 }
