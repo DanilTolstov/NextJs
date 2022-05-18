@@ -2,11 +2,11 @@ import ITopbarProps from './ITopbar.props';
 import styles from "./Topbar.module.css";
 import cn from 'classnames';
 import LogoIcon from '../../logo.svg';
-import { ButtonIcon } from '../../../components';
-import { motion } from 'framer-motion';
-import { Sidebar } from '..';
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import {ButtonIcon} from '../../../components';
+import {motion} from 'framer-motion';
+import {Sidebar} from '..';
+import {useEffect, useState} from 'react';
+import {useRouter} from 'next/router';
 
 export function Topbar({ className, ...props }: ITopbarProps): JSX.Element {
   const [isOpen, setIsOpen] = useState(false);

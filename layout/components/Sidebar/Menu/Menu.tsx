@@ -2,11 +2,11 @@ import styles from "./Menu.module.css";
 import cn from 'classnames';
 import ArrowIcon from './Icons/arrow.svg';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { useAppContext } from '../../../../contexts/app.context';
-import { firstLevelMenu } from '../../../../helpers';
-import { PageItem } from '../../../../interfaces/menu.interface';
-import { motion, AnimatePresence } from 'framer-motion';
+import {useRouter} from 'next/router';
+import {useAppContext} from '../../../../contexts/app.context';
+import {firstLevelMenu} from '../../../../helpers';
+import {PageItem} from '../../../../interfaces/menu.interface';
+import {AnimatePresence, motion} from 'framer-motion';
 
 export function Menu(): JSX.Element {
   const { menu, setMenu, firstCategory } = useAppContext();

@@ -1,9 +1,9 @@
 import ILayoutProps from './ILayout.props';
 import styles from "./Layout.module.css";
-import { Footer, Topbar, Sidebar } from './components';
-import { FunctionComponent, useEffect, useRef } from 'react';
-import { AppProvider, IAppContext } from '../contexts/app.context';
-import { ScrollToUp } from '../components';
+import {Footer, Sidebar, Topbar} from './components';
+import {FunctionComponent, useRef} from 'react';
+import {AppProvider, IAppContext} from '../contexts/app.context';
+import {ScrollToUp} from '../components';
 
 function Layout({ children }: ILayoutProps): JSX.Element {
   const afterSkip = useRef<HTMLButtonElement>(null);

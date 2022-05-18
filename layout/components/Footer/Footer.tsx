@@ -1,7 +1,7 @@
 import IFooterProps from './IFooter.props';
 import styles from "./Footer.module.css";
 import cn from 'classnames';
-import { format } from 'date-fns';
+import {format} from 'date-fns';
 
 export function Footer({ className, ...props }: IFooterProps): JSX.Element {
   return (
