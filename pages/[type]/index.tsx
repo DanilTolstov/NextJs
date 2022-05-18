@@ -1,10 +1,10 @@
-import type { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next';
+import type {GetStaticPaths, GetStaticProps, GetStaticPropsContext} from 'next';
 import axios from 'axios';
-import { withLayout } from '../../Layout/Layout';
-import { MenuItem } from '../../interfaces/menu.interface';
-import { firstLevelMenu } from '../../helpers';
-import { ParsedUrlQuery } from 'querystring';
-import { API } from '../../helpers/api';
+import {withLayout} from '../../Layout/Layout';
+import {MenuItem} from '../../interfaces/menu.interface';
+import {firstLevelMenu} from '../../helpers';
+import {ParsedUrlQuery} from 'querystring';
+import {API} from '../../helpers/api';
 
 const Type = ({ firstCategory = 0 }: TypeProps): JSX.Element => {
   return (

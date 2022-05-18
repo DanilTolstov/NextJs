@@ -1,5 +1,5 @@
-import { FirstLevelMenuItem } from '../interfaces/menu.interface';
-import { TopLevelCategory } from '../interfaces/toppage.interface';
+import {FirstLevelMenuItem} from '../interfaces/menu.interface';
+import {TopLevelCategory} from '../interfaces/toppage.interface';
 import CoursesIcon from './Icons/courses.svg';
 import ServicesIcon from './Icons/services.svg';
 import BooksIcon from './Icons/books.svg';
@@ -12,7 +12,7 @@ export const firstLevelMenu: FirstLevelMenuItem[] = [
   { route: 'products', name: 'Товары', icon: <ProductsIcon />, id: TopLevelCategory.Products },
 ]
 
-export const toLocalNum = (number: number = 0): string => {
+export const toLocalNum = (number  = 0): string => {
   return number.toLocaleString('en-US').replace(',', ' ');
 }
 

@@ -1,12 +1,12 @@
 import IReviewFormProps from './IReviewForm.props';
 import styles from "./ReviewForm.module.css";
 import cn from 'classnames';
-import { Button, Input, Ptag, Rating, Textarea } from '../../../../components';
+import {Button, Input, Ptag, Rating, Textarea} from '../../../../components';
 import CloseIcon from './cross.svg';
-import { useForm, Controller } from 'react-hook-form';
+import {Controller, useForm} from 'react-hook-form';
 import axios from 'axios';
-import { API } from '../../../../helpers/api';
-import { ForwardedRef, forwardRef, useState } from 'react';
+import {API} from '../../../../helpers/api';
+import {ForwardedRef, forwardRef, useState} from 'react';
 
 export const ReviewForm = forwardRef(({ productId, className, ...props }: IReviewFormProps, ref: ForwardedRef<HTMLFormElement>): JSX.Element => {
   const { register, control, handleSubmit, formState: { errors }, reset, clearErrors } = useForm<IForm>();

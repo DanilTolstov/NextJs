@@ -1,5 +1,5 @@
-import { DetailedHTMLProps, HTMLAttributes } from 'react';
-import { FieldError } from 'react-hook-form';
+import {DetailedHTMLProps, HTMLAttributes} from 'react';
+import {FieldError} from 'react-hook-form';
 
 export default interface IRatingProps extends DetailedHTMLProps<HTMLAttributes<HTMLFieldSetElement>, HTMLFieldSetElement> {
   isEditable?: boolean;

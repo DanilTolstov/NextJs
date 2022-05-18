@@ -1,5 +1,5 @@
-import { Htag } from '../components';
-import { withLayout } from '../Layout/Layout';
+import {Htag} from '../components';
+import {withLayout} from '../Layout/Layout';
 
 const Error500 = (): JSX.Element => {
   return <Htag tag='h1'>Ошибка 500</Htag>

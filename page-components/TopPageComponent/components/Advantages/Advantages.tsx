@@ -1,6 +1,6 @@
 import IAdvantagesProps from './IAdvantages.props';
 import styles from "./Advantages.module.css";
-import { Htag, Ptag } from '../../../../components';
+import {Htag, Ptag} from '../../../../components';
 import CheckIcon from './check.svg';
 
 export function Advantages({ advantages }: IAdvantagesProps): JSX.Element {

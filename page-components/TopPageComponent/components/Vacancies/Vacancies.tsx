@@ -1,8 +1,8 @@
 import IVacanciesProps from './IVacancies.props';
 import styles from "./Vacancies.module.css";
 import StarIcon from './star.svg';
-import { Card, Htag, Tag } from '../../../../components';
-import { toLocalNum } from '../../../../helpers';
+import {Card, Htag, Tag} from '../../../../components';
+import {toLocalNum} from '../../../../helpers';
 
 export function Vacancies({ count, category, juniorSalary, middleSalary, seniorSalary }: IVacanciesProps): JSX.Element {
   return (

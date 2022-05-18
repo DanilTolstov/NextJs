@@ -4,7 +4,7 @@ import cn from 'classnames';
 import UserIcon from './User.svg';
 import format from 'date-fns/format';
 import ru from 'date-fns/locale/ru';
-import { Ptag, Rating } from '../../../../components';
+import {Ptag, Rating} from '../../../../components';
 
 export function Review({ review, className, ...props }: IReviewProps): JSX.Element {
   const { name, title, description, createdAt, rating } = review;

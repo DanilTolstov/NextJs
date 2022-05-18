@@ -1,7 +1,7 @@
 import IRatingProps from './IRating.props';
 import styles from "./Rating.module.css";
 import cn from 'classnames';
-import { ForwardedRef, forwardRef, useEffect, useState } from 'react';
+import {ForwardedRef, forwardRef, useEffect, useState} from 'react';
 import StarIcon from './star.svg';
 
 export const Rating = forwardRef(({ error, isEditable = false, rating, setRating, className, ...props }: IRatingProps, ref: ForwardedRef<HTMLFieldSetElement>): JSX.Element => {

@@ -1,10 +1,10 @@
-import type { GetStaticProps } from 'next';
-import { useState } from 'react';
-import { Htag, Button, Ptag, Tag, Rating, Input, Textarea, ScrollToUp } from '../components';
-import { withLayout } from '../Layout/Layout';
+import type {GetStaticProps} from 'next';
+import {useState} from 'react';
+import {Button, Htag, Input, Ptag, Rating, ScrollToUp, Tag, Textarea} from '../components';
+import {withLayout} from '../Layout/Layout';
 import axios from 'axios';
-import { MenuItem } from '../interfaces/menu.interface';
-import { API } from '../helpers/api';
+import {MenuItem} from '../interfaces/menu.interface';
+import {API} from '../helpers/api';
 
 const Home = (): JSX.Element => {
   const [rating, setRating] = useState<number>(2);

@@ -2,7 +2,7 @@ import ISortProps from './ISort.props';
 import styles from "./Sort.module.css";
 import cn from 'classnames';
 import SortIcon from './Sort.svg';
-import { priceSortAction, ratingSortAction, SortEnum } from './sort.actions';
+import {priceSortAction, ratingSortAction, SortEnum} from './sort.actions';
 
 export function Sort({ sort, setSort, className, ...props }: ISortProps): JSX.Element {
   return (

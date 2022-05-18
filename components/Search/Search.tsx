@@ -1,9 +1,9 @@
 import ISearchProps from './ISearch.props';
 import styles from "./Search.module.css";
 import cn from 'classnames';
-import { Button, Input } from '..';
-import { useState, ChangeEvent, FormEvent } from 'react';
-import { useRouter } from 'next/router';
+import {Button, Input} from '..';
+import {ChangeEvent, FormEvent, useState} from 'react';
+import {useRouter} from 'next/router';
 import SearchIcon from './search.svg';
 
 export function Search({ className, ...props }: ISearchProps): JSX.Element {

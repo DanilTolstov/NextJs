@@ -1,4 +1,4 @@
-import { ProductModel } from '../../../../interfaces/product.interface';
+import {ProductModel} from '../../../../interfaces/product.interface';
 
 export const enum SortEnum {
   Rating = 'SORT/RATING',

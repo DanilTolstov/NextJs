@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
+import {ButtonHTMLAttributes, DetailedHTMLProps} from 'react';
 import up from './up.svg';
 import burger from './burger.svg';
 import cross from './cross.svg';

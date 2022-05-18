@@ -1,11 +1,11 @@
-import { Htag, Tag } from '../../components';
-import { TopPageComponentProps } from './TopPageComponent.props';
+import {Htag, Tag} from '../../components';
+import {TopPageComponentProps} from './TopPageComponent.props';
 import styles from './TopPageComponent.module.css';
-import { Vacancies, Advantages, Skills, SeoText, Sort, Product } from './components';
-import { TopLevelCategory } from '../../interfaces/toppage.interface';
-import { SortEnum, sortActionTypes, updateProductsAction } from './components/Sort/sort.actions';
-import { sortReducer } from './components/Sort/sort.reducer';
-import { useEffect, useReducer } from 'react';
+import {Advantages, Product, SeoText, Skills, Sort, Vacancies} from './components';
+import {TopLevelCategory} from '../../interfaces/toppage.interface';
+import {sortActionTypes, SortEnum, updateProductsAction} from './components/Sort/sort.actions';
+import {sortReducer} from './components/Sort/sort.reducer';
+import {useEffect, useReducer} from 'react';
 
 export function TopPageComponent({ page, products, firstCategory }: TopPageComponentProps): JSX.Element {
   const [{ products: sortedProducts, sort }, dispatchSort] = useReducer(sortReducer, { products, sort: SortEnum.Rating });

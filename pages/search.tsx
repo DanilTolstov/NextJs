@@ -1,8 +1,8 @@
-import type { GetStaticProps } from 'next';
-import { withLayout } from '../Layout/Layout';
+import type {GetStaticProps} from 'next';
+import {withLayout} from '../Layout/Layout';
 import axios from 'axios';
-import { MenuItem } from '../interfaces/menu.interface';
-import { API } from '../helpers/api';
+import {MenuItem} from '../interfaces/menu.interface';
+import {API} from '../helpers/api';
 
 const Search = (): JSX.Element => {
   return (

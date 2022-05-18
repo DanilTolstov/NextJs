@@ -1,6 +1,6 @@
 import ISkillsProps from './ISkills.props';
 import styles from "./Skills.module.css";
-import { Htag, Tag } from '../../../../components';
+import {Htag, Tag} from '../../../../components';
 
 export function Skills({ skills }: ISkillsProps): JSX.Element {
   return (

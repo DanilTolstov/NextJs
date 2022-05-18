@@ -1,4 +1,4 @@
-import IButtonIconProps, { icons } from './IButtonIcon.props';
+import IButtonIconProps, {icons} from './IButtonIcon.props';
 import styles from "./ButtonIcon.module.css";
 import cn from 'classnames';
 

@@ -1,11 +1,11 @@
 import IProductProps from './IProduct.props';
 import styles from "./Product.module.css";
 import cn from 'classnames';
-import { Button, Card, Divider, Htag, Ptag, Rating, Tag } from '../../../../components';
-import { Review, ReviewForm } from '..';
-import { declOfNum, toLocalNum } from '../../../../helpers';
-import { useState, useRef, forwardRef, ForwardedRef } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import {Button, Card, Divider, Ptag, Rating, Tag} from '../../../../components';
+import {Review, ReviewForm} from '..';
+import {declOfNum, toLocalNum} from '../../../../helpers';
+import {ForwardedRef, forwardRef, useRef, useState} from 'react';
+import {AnimatePresence, motion} from 'framer-motion';
 
 export const Product = motion(forwardRef(({ product, className, ...props }: IProductProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
   const [isReviewsOpen, setIsReviewsOpen] = useState<boolean>(false);

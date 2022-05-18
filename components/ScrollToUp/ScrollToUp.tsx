@@ -1,8 +1,8 @@
 import styles from "./ScrollToUp.module.css";
-import { useScrollY } from '../../hooks/useScrollY';
-import { useAnimation, motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
-import { ButtonIcon } from '..';
+import {useScrollY} from '../../hooks/useScrollY';
+import {motion, useAnimation} from 'framer-motion';
+import {useEffect, useState} from 'react';
+import {ButtonIcon} from '..';
 
 function useHeightCrossing(height: number): 'crossingInTop' | 'crossingInBottom' {
   const yPosition = useScrollY();

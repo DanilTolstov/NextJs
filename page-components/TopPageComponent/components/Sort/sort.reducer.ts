@@ -1,5 +1,5 @@
-import { ProductModel } from '../../../../interfaces/product.interface';
-import { sortActionTypes, SortEnum } from './sort.actions';
+import {ProductModel} from '../../../../interfaces/product.interface';
+import {sortActionTypes, SortEnum} from './sort.actions';
 
 export interface sortReducerState {
   sort: SortEnum;
