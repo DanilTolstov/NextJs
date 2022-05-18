@@ -2,7 +2,7 @@ import IHtagProps from './IHtag.props';
 import styles from "./Htag.module.css";
 import cn from 'classnames';
 
-export function Htag({ tag, children, className, ...props }: IHtagProps): JSX.Element {
+export function HTag({ tag, children, className, ...props }: IHtagProps): JSX.Element {
   switch (tag) {
     case 'h1':
       return <h1 className={cn(styles.h1, className)} {...props}>{children}</h1>;
